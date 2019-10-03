@@ -35,6 +35,11 @@ ExamplePage.propTypes = {
   heading: PropTypes.string,
   description: PropTypes.string,
   contentComponent: PropTypes.func,
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.shape({
+      frontmatter: PropTypes.object,
+    }),
+  }),
 }
 
 export const ExamplePageQuery = graphql`

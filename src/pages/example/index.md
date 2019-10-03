@@ -1,5 +1,5 @@
 ---
-templateKey: 'example-page'
+templateKey: example-page
 path: /example
 title: Example
 heading: Example Page (For starting my own template)

@@ -63,7 +63,9 @@ collections:
 
       - file: "src/pages/example/index.md"
         label: "Example Page"
-        name: "index"
+        name: "example"
+        editor:
+          preview: false
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "example-page"}
           - {label: Title, name: title, widget: string}
